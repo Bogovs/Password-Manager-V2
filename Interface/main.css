@@ -1,0 +1,171 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c7c7c7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #999999;
+}
+
+input {
+  border:1px solid #111;
+  width:200px;
+  padding:10px;
+  transition: .3s background-color;
+  margin:3px 0;
+}
+
+input:hover {
+  background-color: #fafafa;
+}
+
+#login_btn {
+
+  /* remove default behavior */
+  appearance:none;
+  -webkit-appearance:none;
+
+  /* usual styles */
+  padding:10px;
+  border:none;
+  background-color:#000;
+  color:#fff;
+  font-weight:600;
+  width:222px;
+  margin:10px 0;
+
+}
+#login_btn:hover {
+  background-color: #303030;
+}
+
+#center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#h2 {
+  font-weight: 700;
+}
+
+#notification {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+#save {
+
+  /* remove default behavior */
+  appearance:none;
+  -webkit-appearance:none;
+
+  /* usual styles */
+  padding:10px;
+  border:none;
+  background-color:#000;
+  color:#fff;
+  font-weight:600;
+  width:222px;
+  margin:10px 0;
+
+}
+#save:hover {
+  background-color: #303030;
+}
+
+#gen_align {
+  width:222px;
+  text-align: center;
+  margin:auto;
+}
+
+#gen {
+  font-size: 10px;
+  font-weight: 300;
+  border: none;
+  padding: 0;
+  background: none;
+  float:right;
+}
+
+#gen:hover {
+  font-weight: 400;
+}
+
+#show_list {
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+#show_list:hover {
+  font-weight: 700;
+}
+
+#show_list_align {
+  width:222px;
+  text-align: center;
+  margin:auto;
+}
+
+img {
+    padding: 5px;
+}
+
+#img_align {
+  width:222px;
+  text-align: center;
+  margin:auto;
+}
+
+#decrypt {
+  width:222px;
+  text-align: center;
+  margin:auto;
+}
+
+#list_align {
+  width:500px;
+  text-align: center;
+  margin:auto;
+}
+
+#list {
+  width:500px;
+  margin:auto;
+}
+
+table {
+  table-layout: fixed;
+  width:100%;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+td {
+  text-align:left;
+  word-wrap:break-word;
+  border: 1px solid;
+}
+
+th {
+  border: 1px solid;
+}

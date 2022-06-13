@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Passer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo2_transparent.png">
+    <link rel="stylesheet" href="main.css">
+
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<body id="main">
+    <div id="center">
+        <div id="img_align">
+            <img src="logo2.png" width="162" height="200">
+        </div>
+        <h2 id="h2">Authentication</h2>
+        <br>
+        <div id="notification"></div>
+        <br>
+        <input id="login_input" type="password" placeholder="password" required="" onkeydown="if (event.keyCode == 13)
+                        document.getElementById('login_btn').click()">
+        <br>
+        <button id="login_btn" onclick="login()">Log in</button>
+    </div>
+</body>
+</html>
